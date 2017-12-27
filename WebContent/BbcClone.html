@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Technology - BBC News</title>
+        
+        <style type="text/css">
+        
+            body{
+                margin:0;
+                padding:0;
+                font-family: Helvetica,Arial,sans-serif;
+            }
+            .topbar-section{
+                float:left;
+                border-left: 2px #CCCCCC solid;
+                height:100%;
+            }
+            .topbar-menu{
+                font-weight: bold;
+                font-size: 90%;
+                padding: 13px 15px 0 15px;
+                height:27px;
+            }
+            .clear{
+                clear: both;
+            }
+            #topbar{
+                width:1000px;
+                margin: 0 auto;
+                height: 40px;
+            }
+            #logo{
+                margin-top: 8px;
+                width:100px;
+                float:left;
+                margin-right: 8px;
+                
+            }
+            #signinimage{
+                width:35px;
+                margin:12px 15px;
+                float: left;
+            }
+            #signin-text{
+                font-weight: bold;
+                font-size: 90%;
+                position:relative;
+                top:14px;
+                padding-right:50px;
+            }
+            #wigglyLine{
+                float:left;
+                height:40px;
+                
+            }
+            #bell{
+                height: 25px;
+                margin:10px 8px 0 8px;
+            }
+            #bell-div{
+                float:left;
+            }
+            #more-arrow{
+                width:6px;
+                margin-left: 15px;
+                
+            }
+            #search-box{
+                background-color: #e4e4e4;
+                border: none;
+                font-weight: bold;
+                font-size:14px;
+                padding:5px;
+                margin: 5px 0 5px 5px;
+                float:left;
+            }
+            #magnifier{
+                height: 27px;
+                margin-top: 5px;
+                cursor:pointer;
+            }
+            #menu-bar-container{
+                border-top: 1px solid #CCCCCC;
+                background-color: #A91717;
+                width: 100%;
+                height: 70px;
+                
+            }
+            #menu-bar{
+                width:1000px;
+                margin: 0 auto;
+            }
+            h1{
+                padding:0;
+                margin:0;
+                color:white;
+                font-size: 40px;
+                font-weight: normal;
+                padding-top: 10px;
+                float:left;
+            }
+            #local-news{
+                border: 1px #BB4545 solid;
+                float:right;
+                width:180px;
+                padding: 5px 5px 0 10px;
+                margin: 5px 10px 0 0;
+            }
+            #local-news a {
+                color:white;
+                text-decoration: none;
+                font-size:20px;
+                position: relative;
+                top:-12px;
+                
+            }
+            #local-news a:hover{
+                text-decoration: underline;
+            }
+            #local-news img{
+                height:40px;
+            }
+            #menu-bar-2-container{
+                background-color: #8B171A;
+                width:100%;
+            }
+            #menu-bar-2{
+                width:1000px;
+                margin:0 auto;
+                height: 40px;
+            }
+            #menu-bar-2 a{
+                color:white;
+                text-decoration: none;
+                margin-top: 5px;
+                padding: 0 10px;
+                border-right: 1px solid #BB4545;
+                font-size: 14px;
+                position: relative;
+                top: 10px;
+            }
+            #menu-bar-2 a:hover{
+                text-decoration: underline;
+            }
+            .no-border{
+                border:none !important; <!-- priority when conflicting -->
+            }
+            #down-arrow{
+                height:10px;
+                position:relative;
+                top:10px;
+            }
+            
+        </style>
+        <!--  -->
+    </head>
+    
+    <body>
+        
+        <div id="topbar">
+            <img id="logo" src=images/bbc-blocks-dark.png>
+            <div id="signin-div" class="topbar-section">
+                <img id="signinimage" src="images/BbcSignIn.png">
+                <span id="signin-text">Sign in</span>
+            </div>
+            <div id="bell-div">
+                <img id="wigglyLine" src="images/wigglyLine.png">
+                <img id="bell" src="images/bell.png">
+            </div>
+            <div class="topbar-section topbar-menu">
+                News
+            </div>
+            <div class="topbar-section topbar-menu">
+                Sport
+            </div>
+            <div class="topbar-section topbar-menu">
+                Weather
+            </div>
+            <div class="topbar-section topbar-menu">
+                iPlayer
+            </div>
+            <div class="topbar-section topbar-menu">
+                TV
+            </div>
+            <div class="topbar-section topbar-menu">
+                More
+                <img id="more-arrow" src="images/downarrow.png">
+            </div>
+            <div class="topbar-section">
+                <input id="search-box" type="text" value="Search">
+                <input type="image" id="magnifier" src="images/Magnifier.png">
+            </div>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <div id="menu-bar-container">
+            
+            <div id="menu-bar">
+                <h1>NEWS</h1>
+                <div id="local-news">
+                    <a href="">Find local news</a>
+                    <img src="images/LocationPointer.png">
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div id="menu-bar-2-container">
+                <div id="menu-bar-2">
+                    <a href="">Home</a>
+                    <a href="">UK</a>
+                    <a href="">World</a>
+                    <a href="">Business</a>
+                    <a href="">Politics</a>
+                    <a href="">Tech</a>
+                    <a href="">Science</a>
+                    <a href="">Health</a>
+                    <a href="">Education</a>
+                    <a href="">Entertainment & Arts</a>
+                    <a href="">Video & Audio</a>
+                    <a href="" class="no-border">More</a>
+                    <img id="down-arrow" src="images/downarrow.png">    
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
