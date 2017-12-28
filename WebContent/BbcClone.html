@@ -179,17 +179,18 @@
             	position:relative;
             	position-top:2px;
             }
-            #topic-link {
+            .topic-link {
             	text-decoration:none;
             	color:#a91717;
             	border-left:1px solid #CCCCCC;
             	padding-left:10px;
+            	font-size:15px;
             }
             #article-summary a:hover{
             	color:#1167a8;
             }
             .date{
-            	padding-right:10px;
+            	padding-right:5px;
             }
             #article-container{
             	float:left;
@@ -237,6 +238,13 @@
 				width:150px;
 				position:relative;
 				top:-15px;
+			}
+			.no-border{
+				border-left: none;
+				padding:0;
+			}
+			.border-right{
+				border-right: 1px solid #CCCCCC;
 			}
 
         </style>
@@ -320,7 +328,7 @@
 	       				<p>Security vulnerabilities that put customers at risk have affected 
 	       				ASDA's website for a couple of years, a security expert has revealed.</p>
 	       				<p><img class="clock" src="images/BbcTimer.png"> <span class="date">19 January 2016</span>
-	       				<a id="topic-link" href="">Technology</a></p>
+	       				<a class="topic-link" href="">Technology</a></p>
 	       				<hr id="article-hr" align="left">
 	       				<p><a class="article-link" href="">Surveillance firm hit in hack attack</a></p>
        					<p><a class="article-link" href="">eBay flaw has existed for months</a></p>		
@@ -333,12 +341,24 @@
        			<img class="article-side-image" src="images/bbc-image-1.png">
        			<div class="side-article">
 	       			<p><a class="watch-listen-link" href="">UK science chief backs blockchains</a></p>
-	       			<p><img class="clock" src="images/BbcTimer.png"> <span class="date">19 January 2016</span>
-		       				<a id="topic-link" href="">Technology</a></p>
+	       			<p><img class="clock" src="images/BbcTimer.png"> <span class="date">19 January 2016</span></p>
        			</div>
+       			<div class="clear"></div>
+       			<img class="article-side-image" src="images/bbc-image-2.png">
+       			<div class="side-article">
+	       			<p><a class="watch-listen-link" href="">Drone register gives 'accountability'</a></p>
+	       			<p><img class="clock" src="images/BbcTimer.png"> <span class="date border-right">19 January 2016</span>
+		       				<br><a class="topic-link no-border" href="">Technology</a></p>
+       			</div>
+       			<div class="clear"></div>
+       			<img class="article-side-image" src="images/bbc-image-3.png">
+       			<div class="side-article">
+	       			<p><a class="watch-listen-link" href="">SpaceX rocket explodes during landing</a></p>
+	       			<p><img class="clock" src="images/BbcTimer.png"> <span class="date border-right">19 January 2016</span>
+		       				<br><a class="topic-link no-border" href="">Science & Environment</a></p>
+       			</div> 
        			
-       			<!--  <img src="images/bbc-image-2.png">
-       			<img src="images/bbc-image-3.png">  -->
+       			<!--  <img src="images/bbc-image-3.png">  -->
        		</div>
        	</div>
     </body>
